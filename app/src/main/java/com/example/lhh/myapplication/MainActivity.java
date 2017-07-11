@@ -13,5 +13,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("tag","lhh");
         Log.d("","");
         Log.d("","6666");
+        Log.d("","laoxu");
+
     }
 }

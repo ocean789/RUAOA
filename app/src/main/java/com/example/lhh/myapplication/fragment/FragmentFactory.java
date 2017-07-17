@@ -21,7 +21,7 @@ public class FragmentFactory {
                     baseFragment = new WorkFragment();//工作
                     break;
                 case 2:
-                    baseFragment = new ContactFragment();//联系人
+                    baseFragment = new ContractFragment();//联系人
                     break;
                 case 3:
                     baseFragment = new MyFragment();//我的

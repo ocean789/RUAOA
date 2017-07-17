@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="worker_name">姓名</string>
+    <string name="group_name">组名</string>
+    <string name="Internal_managemen">内外勤管理</string>
+    <string name="check">考勤</string>
+    <string name="rejister">签到</string>
+    <string name="leave">请假</string>
+    <string name="out">外出</string>
+    <string name="business_report">业务汇报</string>
+    <string name="day">日报</string>
+    <string name="week">周报</string>
+    <string name="month">月报</string>
+    <string name="timeandlocation">打卡时间和地点</string>
+    <string name="onwork">上班打卡</string>
+    <string name="offwork">下班打卡</string>
+    <string name="sign">个性签名:</string>
+    <string name="mPhone">12345678000</string>
+    <string name="mPetname">tom</string>
+    <string name="mGroupname">RUA</string>
+    <string name="phone">电话</string>
+    <string name="mypetname">昵称</string>
 </resources>

@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.widget.Button;
 
 import com.example.lhh.myapplication.R;
 import com.example.lhh.myapplication.fragment.BaseFragment;
@@ -20,7 +21,7 @@ import com.example.lhh.myapplication.fragment.FragmentFactory;
 public class MainActivity extends AppCompatActivity {
     private TabLayout mTab;
     private ViewPager mViewPager;
-
+    Button checkbut;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
     private void initView() {
         mTab = (TabLayout) findViewById(R.id.tabLayout);
         mViewPager = (ViewPager) findViewById(R.id.viewPager);
+        checkbut=(Button)findViewById(R.id.checkbut);
+
     }
 
     private class ShortPagerAdapter extends FragmentPagerAdapter {

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    >
+<LinearLayout
+   style="@style/wrap"
+    >
+    <TextView
+       style="@style/wrap"
+        android:text="返回"/>
+
+</LinearLayout>
+    <TextView
+       style="@style/textviewLine" />
+
+    <LinearLayout style="@style/wrap">
+
+        <ImageView
+            style="@style/wrap"
+            android:src="@mipmap/out" />
+
+        <TextView
+            style="@style/wrap"
+            android:text="姓名" />
+
+    </LinearLayout>
+    <TextView
+      style="@style/textviewLine" />
+    <TextView
+       style="@style/wrap"
+        android:text="@string/timeandlocation"/>
+    <ListView
+        style="@style/wrap">
+
+    </ListView>
+    <LinearLayout
+        style="@style/wrap">
+        <ImageView
+           style="@style/wrap"
+            android:src="@mipmap/rejister"/>
+        <TextView
+            style="@style/wrap"
+            android:text="@string/offwork"/>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/wrap"
+        android:orientation="horizontal">
+<TextView
+    style="@style/wrap"
+    android:text="上班时长为"/>
+
+        <com.example.lhh.myapplication.until.custom.TimeView
+            android:id="@+id/time_view"
+            android:layout_width="250dp"
+            android:layout_height="176dp"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal"
+            custom:borderColor="#cccccc"
+            custom:borderWidth="3dp"
+            custom:centerPointColor="#000"
+            custom:centerPointRadiu="2dp"
+            custom:centerPointType="rect"
+            custom:circleBackground="#fffffa"
+            custom:hourPointerColor="#000"
+            custom:hourPointerLength="30dp"
+            custom:isSecondGoSmooth="false"
+            custom:maxScaleColor="#000"
+            custom:maxScaleLength="14dp"
+            custom:midScaleColor="#000"
+            custom:midScaleLength="10dp"
+            custom:minPointerColor="#000"
+            custom:minPointerLength="50dp"
+            custom:minScaleColor="#000"
+            custom:minScaleLength="6dp"
+            custom:secondPointerColor="#f00"
+            custom:secondPointerLength="80dp"
+            custom:textColor="#f00"
+            custom:textSize="24sp" />
+        <TextView
+            style="@style/wrap"
+            android:text="10:10:10"/>
+    </LinearLayout>
+</LinearLayout>

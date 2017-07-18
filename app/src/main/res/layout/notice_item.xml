@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:id="@+id/rel_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/head"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/headone"/>
+    <LinearLayout
+        android:id="@+id/line_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/head">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="还拿龙女郎"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="2017-1-1" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/rel_title"
+        android:textSize="30sp"
+        android:ellipsize="end"
+        android:lines="1"
+        android:text="科黑"/>
+    <ImageView
+        android:id="@+id/img_content"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:src="@mipmap/baseball"
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/readCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="评论数："/>
+        <TextView
+            android:id="@+id/commentCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/readCount"
+            android:layout_marginRight="30dp"
+            android:text="阅读数："/>
+    </RelativeLayout>
+
+</LinearLayout>

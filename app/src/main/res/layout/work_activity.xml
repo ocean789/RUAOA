@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<include layout="@layout/work_title"
+     />
+    <TextView
+        style="@style/textviewLine"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/worker_name"
+             />
+
+        <TextView
+            style="@style/wrap_weight"
+            android:id="@+id/workername"
+            android:textSize="30dp"
+
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="@string/group_name" />
+        <TextView
+            style="@style/wrap_weight"
+            android:id="@+id/gropname"
+            android:textSize="30dp"
+
+            />
+    </LinearLayout>
+    <TextView
+        style="@style/textviewLine"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/Internal_managemen"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/checkbut"
+            style="@style/wrap_weight"
+            android:background="@mipmap/check"
+            />
+<TextView
+    style="@style/wrap_space"/>
+
+        <Button
+            android:id="@+id/registerbut"
+            style="@style/wrap_weight"
+            android:background="@mipmap/rejister" />
+        <TextView
+            style="@style/wrap_space"
+            />
+
+        <Button
+            android:id="@+id/leavebut"
+            style="@style/wrap_weight"
+            android:background="@mipmap/leave"
+             />
+        <TextView
+            style="@style/wrap_space"/>
+
+        <Button
+            android:id="@+id/outbut"
+            style="@style/wrap_weight"
+            android:background="@mipmap/out" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/wrap_weight"
+            android:text="@string/check"
+           android:gravity="center"
+             />
+
+        <TextView
+            style="@style/wrap_weight"
+            android:gravity="center"
+            android:text="@string/rejister" />
+
+        <TextView
+            style="@style/wrap_weight"
+            android:gravity="center"
+            android:text="@string/leave" />
+
+        <TextView
+            style="@style/wrap_weight"
+            android:gravity="center"
+            android:text="@string/out" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/textviewLine"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/business_report"/>
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+    android:layout_weight="1">
+<Button
+    android:id="@+id/day"
+    style="@style/wrap_weight"
+    android:text="@string/day"
+    android:background="@drawable/bg_circle"
+    />
+<Button
+    android:id="@+id/week"
+    style="@style/wrap_weight"
+    android:text="@string/week"
+    android:background="@drawable/bg_circle"
+    />
+<Button
+    android:id="@+id/month"
+    style="@style/wrap_weight"
+    android:text="@string/month"
+    android:background="@drawable/bg_circle"
+    />
+</LinearLayout>
+
+</LinearLayout>

@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -30,8 +31,8 @@ public class ContractFragment extends BaseFragment {
         view = inflater.inflate(R.layout.contract_activity, container, false);
         ListView listView = (ListView)view.findViewById(R.id.list);
         ListView listView2 = (ListView)view.findViewById(R.id.list2);
-        Button search_title = (Button)view.findViewById(R.id.search_title);
-        Button add = (Button)view.findViewById(R.id.add);
+        ImageView search_title = (ImageView)view.findViewById(R.id.search_title);
+        ImageView add = (ImageView)view.findViewById(R.id.add);
         List<Contract_itembean> list = new ArrayList<>();
         List<Contract_itembean> list2 = new ArrayList<>();
         String []str01 = {"我的好友","我的群组","创建团队"};

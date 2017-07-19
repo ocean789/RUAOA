@@ -35,8 +35,9 @@ public class ContractFragment extends BaseFragment {
         ImageView add = (ImageView)view.findViewById(R.id.add);
         List<Contract_itembean> list = new ArrayList<>();
         List<Contract_itembean> list2 = new ArrayList<>();
-        String []str01 = {"我的好友","我的群组","创建团队"};
-        String []superfriend = {"老谢","老魏","国哥","老徐","煜神"};
+        String []str01 = {getString(R.string.contract_friend),getString(R.string.contract_group),getString(R.string.contract_create)};
+        String []superfriend = {getString(R.string.contract_xft),getString(R.string.contract_wyf),
+                getString(R.string.contract_zwg),getString(R.string.contract_xkp),getString(R.string.contract_ssy)};
         int [] imgs = {R.mipmap.friend,R.mipmap.group,R.mipmap.create} ;
         int [] head = {R.mipmap.wyf,R.mipmap.xft,R.mipmap.zwg,R.mipmap.lx,R.mipmap.ys};
         for(int i=0;i<str01.length;i++){
@@ -53,13 +54,13 @@ public class ContractFragment extends BaseFragment {
         search_title.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(),"搜索功能暂未实装",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), R.string.contract_tip01,Toast.LENGTH_SHORT).show();
             }
         });
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getActivity(),"添加联系人功能暂未实装",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), R.string.contract_tip02,Toast.LENGTH_SHORT).show();
             }
         });
         ContractAdapter adapter = new ContractAdapter(getActivity(),list,R.layout.contract_item);

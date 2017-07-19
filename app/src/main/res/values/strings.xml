@@ -20,4 +20,16 @@
     <string name="mGroupname">RUA</string>
     <string name="phone">电话</string>
     <string name="mypetname">昵称</string>
+    <string name="contract_people">联系人</string>
+    <string name="contract_superfriend">常用联系人</string>
+    <string name="contract_friend">我的好友</string>
+    <string name="contract_group">我的群组</string>
+    <string name="contract_create">创建团队</string>
+    <string name="contract_xft">老谢</string>
+    <string name="contract_wyf">老魏</string>
+    <string name="contract_zwg">国哥</string>
+    <string name="contract_xkp">老徐</string>
+    <string name="contract_ssy">煜神</string>
+    <string name="contract_tip01">搜索功能暂未实装</string>
+    <string name="contract_tip02">添加联系人功能暂未实装</string>
 </resources>

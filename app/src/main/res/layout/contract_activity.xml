@@ -17,7 +17,7 @@ android:orientation="horizontal">
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_weight="9"
-        android:text="  联系人"
+        android:text="@string/contract_people"
         android:textSize="@dimen/large" />
 
     <ImageView
@@ -74,7 +74,7 @@ android:orientation="horizontal">
     android:layout_marginTop="15dp"
     android:layout_marginBottom="10dp"
     android:layout_marginLeft="10dp"
-    android:text="常用联系人"/>
+    android:text="@string/contract_superfriend"/>
 
 </LinearLayout>
 <ListView

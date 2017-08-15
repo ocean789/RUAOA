@@ -97,7 +97,10 @@ public class ContractFragment extends BaseFragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Intent intent01 = new Intent();
+                Bundle bundle = new Bundle();
+                bundle.putInt("i",i);
                 intent01.setClass(getActivity(),InfoActivity.class);
+                intent01.putExtras(bundle);
                 startActivity(intent01);
             }
         });

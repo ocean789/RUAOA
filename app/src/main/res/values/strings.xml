@@ -32,4 +32,25 @@
     <string name="contract_ssy">煜神</string>
     <string name="contract_tip01">搜索功能暂未实装</string>
     <string name="contract_tip02">添加联系人功能暂未实装</string>
+    <string name="create">创建团队</string>
+    <string name="group_name01">团队名称</string>
+    <string name="contract_name">请输入团队名称</string>
+    <string name="contract_job">所在行业</string>
+    <string name="contract_tip">必选</string>
+    <string name="contact_size">人员规模</string>
+    <string name="job_tip">测试</string>
+    <string name="size_tip">测试</string>
+    <string name="contact_loc">地区</string>
+    <string name="contact_member">团队成员</string>
+    <string name="addmember">添加团队成员</string>
+    <string name="create_now">立即创建团队</string>
+    <string name="myfriend">我的好友</string>
+    <string name="search">搜索</string>
+    <string name="newfriend">新的好友</string>
+    <string name="name">姓名</string>
+    <string name="xft">谢非同</string>
+    <string name="title">我的好友</string>
+    <string name="friend">我的好友</string>
+    <string name="group">我的群组</string>
+    <string name="createteam">创建团队</string>
 </resources>
